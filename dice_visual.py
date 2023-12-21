@@ -2,8 +2,9 @@
 import plotly.express as px
 from die import Die
 
-# Create a D6
-die = Die()
+# Create two D6 dice.
+die_1 = Die()
+die_2 = Die()
 
 # Make some rolls, and store results in a list.
 results = []
